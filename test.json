@@ -1,0 +1,272 @@
+{
+    "user": {
+        "alutation": "",
+        "full_name": "",
+        "phone_number": "",
+        "email": "",
+        "role": "",
+        "profile": "",
+        "reporting_manager": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "zip_code": "",
+        "department": "",
+        "college": "",
+        "team": "",
+        "date_of_joining": "",
+        "date_of_birth": ""
+    },
+    "team": {
+        "name": "MI",
+        "description": "this is team MI",
+        "status": true,
+        "teamLead": {
+            "name": "abcd ",
+            "_id": "452565665475fvds5sd5"
+        },
+        "members": [
+            {
+                "name": "abcd ",
+                "_id": "452565665475fvds5sd5"
+            }
+        ]
+    },
+    "role": {
+        "roleName": "CEO",
+        "description": "",
+        "productAccess": true,
+        "modulePermissions": {
+            "all": {
+                "basic": {
+                    "create": true,
+                    "read": true,
+                    "update": true,
+                    "delete": true
+                },
+                "administrative": {
+                    "readAll": true,
+                    "updateAll": true,
+                    "deleteAll": true
+                },
+                "special": {
+                    "note": true,
+                    "task": true,
+                    "maeeting": true,
+                    "email": true,
+                    "call": true,
+                    "message": true,
+                    "quotation": true,
+                    "document": true
+                }
+            },
+            "automation": {
+                "basic": {
+                    "create": true,
+                    "read": true,
+                    "update": true,
+                    "delete": true
+                },
+                "administrative": {
+                    "readAll": true,
+                    "updateAll": true,
+                    "deleteAll": true
+                },
+                "special": {
+                    "note": true,
+                    "task": true,
+                    "maeeting": true,
+                    "email": true,
+                    "call": true,
+                    "message": true,
+                    "quotation": true,
+                    "document": true
+                },
+                "workflow": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                }
+            },
+            "communicationManagement": {
+                "basic": {
+                    "create": true,
+                    "read": true,
+                    "update": true,
+                    "delete": true
+                },
+                "administrative": {
+                    "readAll": true,
+                    "updateAll": true,
+                    "deleteAll": true
+                },
+                "special": {
+                    "note": true,
+                    "task": true,
+                    "maeeting": true,
+                    "email": true,
+                    "call": true,
+                    "message": true,
+                    "quotation": true,
+                    "document": true
+                },
+                "call": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                },
+                "email": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                },
+                "emailTemplate": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                },
+                "message": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                }
+            },
+            "companyManagement": {
+                "basic": {
+                    "create": true,
+                    "read": true,
+                    "update": true,
+                    "delete": true
+                },
+                "administrative": {
+                    "readAll": true,
+                    "updateAll": true,
+                    "deleteAll": true
+                },
+                "special": {
+                    "note": true,
+                    "task": true,
+                    "maeeting": true,
+                    "email": true,
+                    "call": true,
+                    "message": true,
+                    "quotation": true,
+                    "document": true
+                },
+                "company": {
+                    "basic": {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "administrative": {
+                        "readAll": true,
+                        "updateAll": true,
+                        "deleteAll": true
+                    },
+                    "special": {
+                        "note": true,
+                        "task": true,
+                        "maeeting": true,
+                        "email": true,
+                        "call": true,
+                        "message": true,
+                        "quotation": true,
+                        "document": true
+                    }
+                }
+            }
+        }
+    }
+}
